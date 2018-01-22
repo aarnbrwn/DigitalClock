@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* border: 2px solid red; */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+height: 100%;
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+#clock {
+  position: absolute;
+  top: 40%;
+  height: 0;
+  width: 100vw;
+  margin: 0 auto;
+  color: white;
+  text-align: center;
+  font-size: 5em;
+  font-family: 'Handlee', cursive;
+}
